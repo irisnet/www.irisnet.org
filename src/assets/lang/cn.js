@@ -1,7 +1,7 @@
 export const message = {
     "logo": 'irisnet.png',
     "white":'public/whiteDwCn.png',
-    "whiteHref":"https://github.com/irisnet/irisnet/blob/master/WHITEPAPER.md",
+    "whiteHref":"https://github.com/irisnet/irisnet/blob/master/白皮书.md",
     "next": 'what_next.png',
     "head": {
         'txt': [
