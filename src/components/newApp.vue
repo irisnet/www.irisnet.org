@@ -411,9 +411,9 @@
                 }else {
                     this.showerr = true;
                     let _this = this;
-                    // setTimeout(function () {
-                    //     _this.showerr = false;
-                    // },2000)
+                    setTimeout(function () {
+                        _this.showerr = false;
+                    },2000)
                     return
                 }
                 axios({

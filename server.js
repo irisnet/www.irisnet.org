@@ -27,7 +27,7 @@ app.route('/')
             url: 'https://us18.api.mailchimp.com/3.0/lists/25c2f2356f/members',
             method: 'POST',
             headers: {
-                'Authorization': 'apikey 5544ff992834463df3bf84f31ee6b8d6-us18',
+                'Authorization': 'apikey dfd51b9f41ff0e0db75e8645716067aa-us18',
                 'Content-Type': 'application/json'
             },
             json: {
