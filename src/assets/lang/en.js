@@ -419,25 +419,19 @@ export const message = {
         "list": [
             {
                 "img": "roadmap/Pangu.png",
-                "txt": "As the first stage of the IRISnet project, we will focus on having the IRIS Hub up and running as one " +
-                "of the earliest regional hubs that connect to the Cosmos Hub; we’ll get a couple of public blockchains " +
-                "to connect to the IRIS Hub as “zones”, and release an initial version of the mobile client for the IRIS Network."
+                "txt": "The first stage of the IRIS project will focus on having the IRIS Hub up and running and connected to the Cosmos Hub. We also intend to release an initial version of the mobile client for the IRIS network."
             },
             {
                 "img": "roadmap/NUWA.png",
-                "txt": "The is the stage where we will build out the fundamental IRIS Service Layer: upgrade the network to enable " +
-                "service definition, binding, invocation and query; have a beta version of the IRIS SDK ready for developers and  upgrade the" +
-                " mobile client to support IRIS Services; form strategic alliances with service providers and have more zones connected the IRIS Hub."
+                "txt": "The second stage will focus on building the fundamental IRIS Service Layer. This will involve enabling service definition, binding, invocation and query. In this stage we are also aiming to have a beta version of the IRIS SDK ready for developers."
             },
             {
                 "img": "roadmap/kuafu.png",
-                "txt": "Upgrade the network to support advanced IRIS Service governance features, such as profiling and dispute resolution; keep " +
-                "improving the SDK and mobile client; rapidly expand the network to connect with more zones and integrate more service providers."
+                "txt": "The third stage will focus on incremental upgrades to the IRIS network in order to support our planned advanced IRIS Service governance features."
             },
             {
                 "img": "roadmap/houyi.png",
-                "txt": "Move toward the realization of a distributed business ecosystem, through relentless technology innovations," +
-                " effective community building and sustained developer empowerment."
+                "txt": "The fourth stage will focus on further technology innovations to the IRIS network, IRIS SDK and mobile client, as well as developer engagement."
             }
         ]
     },

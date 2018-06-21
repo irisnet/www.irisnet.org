@@ -143,7 +143,7 @@
                                     <span>PANGU</span>
                                     <p>JAN 2018 </p>
                                     <p> | </p>
-                                    <p>JUL 2018</p>
+                                    <p>SEP 2018</p>
                                 </div>
                                 <div class="roadmap_txt" :class=" list[0].is ? 'showOpacity' : '' ">
                                     {{$store.state.messages.roadmap.list[0].txt}}
@@ -157,9 +157,9 @@
                                 </div>
                                 <div class="roadmap_img" @click="txtShow(1)">
                                     <span>NUWA</span>
-                                    <p>AUG 2018 </p>
+                                    <p>OCT 2018 </p>
                                     <p> | </p>
-                                    <p>NOV 2018</p>
+                                    <p>DEC 2018</p>
                                 </div>
                                 <div class="roadmap_txt" :class=" list[1].is ? 'showOpacity' : '' ">
                                     {{$store.state.messages.roadmap.list[1].txt}}
@@ -173,16 +173,16 @@
                                 </div>
                                 <div class="roadmap_img" @click="txtShow(2)">
                                     <span>KUAFU</span>
-                                    <p>DEC 2018 </p>
+                                    <p>JAN 2019 </p>
                                     <p> | </p>
-                                    <p>MAY 2019</p>
+                                    <p>JUN 2019</p>
                                 </div>
                                 <div v-if="$store.state.lang!='CN'" class="roadmap_txt"
                                      :class=" list[2].is ? 'showOpacity' : '' " style="top: -54px;">
                                     {{$store.state.messages.roadmap.list[2].txt}}
                                 </div>
                                 <div v-if="$store.state.lang=='CN'" class="roadmap_txt"
-                                     :class=" list[2].is ? 'showOpacity' : '' " style="top: 0px;">
+                                     :class=" list[2].is ? 'showOpacity' : '' " style="top: 0;">
                                     {{$store.state.messages.roadmap.list[2].txt}}
                                 </div>
                             </div>
@@ -195,15 +195,15 @@
                                 <div class="roadmap_img" @click="txtShow(3)">
                                     <span>HOUYI</span>
                                     <p>BEYOND </p>
-                                    <p>JUN 2019</p>
+                                    <p>JUL 2019</p>
                                 </div>
                                 <div v-if="$store.state.lang!='CN'" class="roadmap_txt"
                                      :class=" list[3].is ? 'showOpacity' : '' " style="top: -70px;">
                                     {{$store.state.messages.roadmap.list[3].txt}}
                                 </div>
                                 <div v-if="$store.state.lang=='CN'" class="roadmap_txt"
-                                     :class=" list[3].is ? 'showOpacity' : '' " style="top: -82px;">
-                                    {{$store.state.messages.roadmap.list[2].txt}}
+                                     :class=" list[3].is ? 'showOpacity' : '' " style="top: 0;">
+                                    {{$store.state.messages.roadmap.list[3].txt}}
                                 </div>
                             </div>
                         </div>
@@ -237,12 +237,12 @@
                                 </article>
                             </div>
 
-                            <div class="collaboration_one_col">
-                                <article class="investment">
-                                    <h4>{{collaboration_counsel.title}}</h4>
-                                    <comp-collaboration-item :info="collaboration_counsel"></comp-collaboration-item>
-                                </article>
-                            </div>
+                            <!--<div class="collaboration_one_col">-->
+                                <!--<article class="investment">-->
+                                    <!--<h4>{{collaboration_counsel.title}}</h4>-->
+                                    <!--<comp-collaboration-item :info="collaboration_counsel"></comp-collaboration-item>-->
+                                <!--</article>-->
+                            <!--</div>-->
                         </div>
                     </div>
 
@@ -411,9 +411,9 @@
                 }else {
                     this.showerr = true;
                     let _this = this;
-                    // setTimeout(function () {
-                    //     _this.showerr = false;
-                    // },2000)
+                    setTimeout(function () {
+                        _this.showerr = false;
+                    },2000)
                     return
                 }
                 axios({
