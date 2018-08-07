@@ -1783,7 +1783,7 @@ export default {
         },
         "test":{
             join:'Joining the Testnet',
-            title:'IRISnet is here and we need your presence',
+            title:'Fuxi testnet is here and we need your presence',
             btn1:'How to Join',
             btn3:'IRISnet FAQ',
         }

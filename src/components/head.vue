@@ -54,7 +54,7 @@
             }
         },
         mounted(){
-            this.testActive = window.location.href.includes('test');
+            this.testActive = window.location.href.includes('testnets');
         },
         methods: {
             downShow() {
@@ -70,7 +70,7 @@
                 this.comm = '../public/community_selected.png';
             },
             skipToTest(){
-                this.$router.push('/test')
+                this.$router.push('/testnets/pc')
             },
         },
     }
