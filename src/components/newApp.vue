@@ -418,7 +418,7 @@
                 this.$router.push({path: '/appTerms'})
             },
             goToHome(){
-                this.$router.go('/newApp')
+                this.$router.push(`/newApp?lang=${this.$store.state.lang}`)
             },
             gotoCommunity(){
                 this.$router.push({path: '/community'})

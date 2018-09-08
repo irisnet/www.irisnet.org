@@ -80,7 +80,7 @@
                 }
             },
             goToHome(){
-                this.$router.go('/newApp')
+                this.$router.push(`/newApp?lang=${this.$store.state.lang}`)
             }
         },
         data() {
