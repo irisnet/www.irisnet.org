@@ -161,7 +161,7 @@ export const message = {
     home: {
         sectionOne: {
             title: 'IRIS Betanet',
-            time: '2019.02.28 launched',
+            time: '2019.03.01 上线',
             shareUrl: {
                 telegramUrl: 'https://t.me/irisnetworkcn',
                 githubUrl: 'https://github.com/irisnet/irishub',
