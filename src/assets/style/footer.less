@@ -156,6 +156,39 @@
 .community_link_list{
   display: flex;
   list-style-type: none;
+  position: relative;
+  .mobileBox {
+    .qrcode {
+      width: 1.38rem;
+      height: 1.31rem;
+      background: #fff;
+      position: absolute;
+      top:0;
+      left: 1.59rem;
+      transform: translateY(-100%);
+      border-radius: 0.12rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 90%;
+        margin: 0;
+        opacity: 1;
+      }
+      .arrow {
+        position:absolute;
+        border-color:#fff transparent transparent transparent;
+        border-style:solid dashed dashed dashed;
+        border-width:0.08rem;
+        left:50%;
+        bottom:-0.16rem;
+        transform: translateX(-50%);
+      }
+      .closeIcon {
+        display: none;
+      }
+    }
+  }
 }
 @media screen and (min-width: 375px) and (max-width: 768px){
   .footer_container{
@@ -316,6 +349,39 @@
   .community_link_list{
     display: flex;
     list-style-type: none;
+    position: relative;
+  .mobileBox {
+    .qrcode {
+      width: 1.38rem;
+      height: 1.31rem;
+      background: #fff;
+      position: absolute;
+      top:0;
+      left: 1.33rem;
+      transform: translateY(-100%);
+      border-radius: 0.12rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 90%;
+        margin: 0;
+        opacity: 1;
+      }
+      .arrow {
+        position:absolute;
+        border-color:#fff transparent transparent transparent;
+        border-style:solid dashed dashed dashed;
+        border-width:0.08rem;
+        left:50%;
+        bottom:-0.16rem;
+        transform: translateX(-50%);
+      }
+      .closeIcon {
+        display: none;
+      }
+    }
+  }
   }
 }
 @media screen and (max-width: 375px){
@@ -469,5 +535,43 @@
   .community_link_list{
     display: flex;
     list-style-type: none;
+    position: relative;
+    .mobileBox {
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.8);
+      top: 0;
+      left: 0;
+      color: red;
+      .qrcode {
+        width: 2rem;
+        height: 2rem;
+        background: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 0.12rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 97%;
+          margin: 0;
+          opacity: 1;
+        }
+        .arrow {
+          display: none;
+        }
+        .closeIcon {
+          display: block;
+          position: absolute;
+          width: 0.41rem;
+          bottom: 0;
+          transform: translateY(200%);
+        }
+      }
+    }
   }
 }

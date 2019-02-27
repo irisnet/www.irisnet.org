@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div id="app" @click="closeWeChatIcon">
         <IrisnetHeader></IrisnetHeader>
         <router-view/>
         <IrisnetFooter></IrisnetFooter>
@@ -20,6 +20,11 @@
         watch:{
             $route(){
                 document.body.scrollTop = 0;
+            }
+        },
+        methods: {
+            closeWeChatIcon () {
+                this.$store.commit('controlWeChat', false)
             }
         }
     }

@@ -15,6 +15,7 @@ export function createStore () {
             collaboration: '',
             contact: '',
             activeIconIndex: '',
+            footerWeChatIcon: false,
         },
         mutations: {
             changeItemIs(state, payload) {
@@ -40,6 +41,9 @@ export function createStore () {
             },
             roadmap(state,data){
                 state.roadmap = data;
+            },
+            controlWeChat(state,data){
+                state.footerWeChatIcon = data;
             }
         }
     })

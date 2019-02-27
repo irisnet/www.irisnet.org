@@ -6,8 +6,15 @@
                     <div class="social_community_content">
                         <p class="community">Social Community</p>
                         <ul class="community_link_list">
+                            <div v-show="$store.state.footerWeChatIcon"  class="mobileBox" @touchmove.prevent>
+                                <div class="qrcode" @touchmove.prevent>
+                                    <img src="../assets/wechat.jpg" alt="" @touchmove.prevent>
+                                    <div class="arrow"></div>
+                                    <img src="../assets/closeIcon.png" alt="" class="closeIcon" @touchmove.prevent>
+                                </div>
+                            </div>
                             <li class="community_link_item" v-for="item in $store.state.messages.footer.socialCommunity" :key="item.id">
-                                <a :href="item.href" target="_blank">
+                                <a :href="item.href" target="_blank" @click="jumpUrl($event, item.href)">
                                     <img :src='UrlSrc + item.src'>
                                 </a>
                             </li>
@@ -97,6 +104,18 @@
                 setTimeout(function () {
                     that.$store.commit('contact',that.$refs.contact.offsetTop)
                 },100);
+            },
+            jumpUrl (e, url) {
+                e.stopPropagation()
+                if (url) {
+                    window.location.href = url
+                } else {
+                    this.$store.commit('controlWeChat', true)
+                }
+            },
+            showWeChat (e) { 
+                e.stopPropagation()
+                this.$store.commit('controlWeChat', true)
             }
         },
         mounted () {

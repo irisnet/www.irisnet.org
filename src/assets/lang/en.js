@@ -214,60 +214,60 @@ export const message = {
             CoreDevelopmentTeams: {
                 title: 'Core Development Teams',
                 logos: [
-                    {id:0, path: 'logos/irisnet_bianjiehover.png', url: ''},
-                    {id:1, path: 'logos/irisnet_tenderminthover.png', url: ''}
+                    {id:0, path: 'logos/irisnet_bianjiehover.png', url: 'https://www.bianjie.ai/'},
+                    {id:1, path: 'logos/irisnet_tenderminthover.png', url: 'https://tendermint.com/'}
                 ]
             },
             StrategicPartners: {
                 title: 'Strategic Partners',
                 logos: [
-                    {id:0, path: 'logos/irisnet_InTERCHAIN.png', url: ''},
-                    {id:1, path: 'logos/irisnet_HASHKEY.png', url: ''}
+                    {id:0, path: 'logos/irisnet_InTERCHAIN.png', url: 'https://cosmos.network/about'},
+                    {id:1, path: 'logos/irisnet_HASHKEY.png', url: 'https://www.hashkey.com/#/'}
                 ]
             },
             EcosystemPartners: {
                 title: 'Ecosystem Partners',
                 logos: [
-                    {id:0, path: 'logos/irisnet_Platonlogo.png', url: ''},
-                    {id:1, path: 'logos/irisnet_hashquark.png', url: ''},
-                    {id:2, path: 'logos/irisnet_hashgardhover.png', url: ''}
+                    {id:0, path: 'logos/irisnet_Platonlogo.png', url: 'https://www.platon.network/#/index'},
+                    {id:1, path: 'logos/irisnet_hashquark.png', url: 'https://www.hashquark.io/#/'},
+                    {id:2, path: 'logos/irisnet_hashgardhover.png', url: 'https://www.hashgard.io/#/'}
                 ]
             },
             Institutional: {
                 title: {msg1: 'Institutional Supporters', msg2: '( Listed in no particular order )'},
                 logos: [
-                    {id:0, path: 'logos/irisnet_AminoCapital.png', url: ''},
-                    {id:1, path: 'logos/irisnet_Bibox.png', url: ''},
-                    {id:2, path: 'logos/irisnet_huobi.png', url: ''},
-                    {id:3, path: 'logos/irisnet_GBIC.png', url: ''},
-                    {id:4, path: 'logos/irisnet_8decim.png', url: ''},
-                    {id:5, path: 'logos/irisnet_bihu.png', url: ''},// 1
-                    {id:6, path: 'logos/irisnet_ba.png', url: ''},
-                    {id:7, path: 'logos/irisnet_BKfund.png', url: ''},
-                    {id:8, path: 'logos/irisnet_byz.png', url: ''},
-                    {id:9, path: 'logos/irisnet_ChainPE.png', url: ''},
-                    {id:10, path: 'logos/irisnet_CP.png', url: ''},
-                    {id:11, path: 'logos/irisnet_COEFFICIENT.png', url: ''},// 2
-                    {id:12, path: 'logos/irisnet_gongshi.png', url: ''},
-                    {id:13, path: 'logos/irisnet_dushu.png', url: ''},
-                    {id:14, path: 'logos/irisnet_genblock.png', url: ''},
-                    {id:15, path: 'logos/irisnet_HAYEK.png', url: ''},
-                    {id:16, path: 'logos/irisnet_INK.png', url: ''},
-                    {id:17, path: 'logos/irisnet_LINKVCcopy.png', url: ''},// 3
-                    {id:18, path: 'logos/irisnet_MediSHares.png', url: ''},
-                    {id:19, path: 'logos/irisnet_jieshi.png', url: ''},
-                    {id:20, path: 'logos/irisnet_nirvana-logo-white.png', url: ''},
-                    {id:21, path: 'logos/irisnet_NGC.png', url: ''},
-                    {id:22, path: 'logos/irisnet_origin.png', url: ''},
-                    {id:23, path: 'logos/irisnet_SatoshiFUnd.png', url: ''},// 4
-                    {id:24, path: 'logos/irisnet_guigu.png', url: ''},
-                    {id:25, path: 'logos/irisnet_shicuo.png', url: ''},
-                    {id:26, path: 'logos/irisnet_huixiang.png', url: ''},
-                    {id:27, path: 'logos/irisnet_Unetwork.png', url: ''},
-                    {id:28, path: 'logos/irisnet_jiuhe.png', url: ''},
-                    {id:29, path: 'logos/irisnet_UA.png', url: ''},//5
-                    {id:30, path: 'logos/irisnet_shuidi.png', url: ''},
-                    {id:31, path: 'logos/irisnet_yidao.png', url: ''},
+                    {id:0, path: 'logos/irisnet_AminoCapital.png', url: 'http://www.aminocapital.com/'},
+                    {id:1, path: 'logos/irisnet_Bibox.png', url: 'https://www.bibox.com/'},
+                    {id:2, path: 'logos/irisnet_huobi.png', url: 'https://www.hbg.com/en-us/capital/'},
+                    {id:3, path: 'logos/irisnet_GBIC.png', url: 'https://gbic.io/'},
+                    {id:4, path: 'logos/irisnet_8decim.png', url: 'javascript:void(0)'},
+                    {id:5, path: 'logos/irisnet_bihu.png', url: 'https://bihu.com/'},// 1
+                    {id:6, path: 'logos/irisnet_ba.png', url: 'javascript:void(0)'},
+                    {id:7, path: 'logos/irisnet_BKfund.png', url: 'javascript:void(0)'},
+                    {id:8, path: 'logos/irisnet_byz.png', url: 'javascript:void(0)'},
+                    {id:9, path: 'logos/irisnet_ChainPE.png', url: 'http://www.chainpe.com/'},
+                    {id:10, path: 'logos/irisnet_CP.png', url: 'https://chainpool.io/'},
+                    {id:11, path: 'logos/irisnet_COEFFICIENT.png', url: 'http://coefficient.network/'},// 2
+                    {id:12, path: 'logos/irisnet_gongshi.png', url: 'http://consensuscapital.ca/'},
+                    {id:13, path: 'logos/irisnet_dushu.png', url: 'javascript:void(0)'},
+                    {id:14, path: 'logos/irisnet_genblock.png', url: 'https://genblock.capital/'},
+                    {id:15, path: 'logos/irisnet_HAYEK.png', url: 'javascript:void(0)'},
+                    {id:16, path: 'logos/irisnet_INK.png', url: 'http://ink.one/'},
+                    {id:17, path: 'logos/irisnet_LINKVCcopy.png', url: 'http://www.linkvc.com/'},// 3
+                    {id:18, path: 'logos/irisnet_MediSHares.png', url: 'http://medishares.org/'},
+                    {id:19, path: 'logos/irisnet_jieshi.png', url: 'http://www.milestonevc.com/index.html'},
+                    {id:20, path: 'logos/irisnet_nirvana-logo-white.png', url: 'http://nirvana.capital/'},
+                    {id:21, path: 'logos/irisnet_NGC.png', url: 'http://ngc.fund/'},
+                    {id:22, path: 'logos/irisnet_origin.png', url: 'http://www.theorigincapital.com/'},
+                    {id:23, path: 'logos/irisnet_SatoshiFUnd.png', url: 'https://satoshi.fund/'},// 4
+                    {id:24, path: 'logos/irisnet_guigu.png', url: 'http://www.svinsight.com/'},
+                    {id:25, path: 'logos/irisnet_shicuo.png', url: 'javascript:void(0)'},
+                    {id:26, path: 'logos/irisnet_huixiang.png', url: 'javascript:void(0)'},
+                    {id:27, path: 'logos/irisnet_Unetwork.png', url: 'https://u.network/'},
+                    {id:28, path: 'logos/irisnet_jiuhe.png', url: 'http://www.unityvc.com/'},
+                    {id:29, path: 'logos/irisnet_UA.png', url: 'javascript:void(0)'},//5
+                    {id:30, path: 'logos/irisnet_shuidi.png', url: 'http://waterdrip.io/'},
+                    {id:31, path: 'logos/irisnet_yidao.png', url: 'javascript:void(0)'},
                 ]
             }
         }

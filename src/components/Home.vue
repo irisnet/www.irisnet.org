@@ -1,5 +1,5 @@
 <template>
-    <div class="content_wrap" @click="showWeChat=false">
+    <div class="content_wrap" @click="closeWeChat">
         <section class="sectionOne">
             <div class="left">
                 <div>{{$store.state.messages.home.sectionOne.title}}</div>
@@ -16,7 +16,6 @@
                                 <img src="../assets/closeIcon.png" alt="" class="closeIcon" @touchmove.prevent>
                             </div>
                         </div>
-                        
                     </a>
                 </div>
                 <div>
@@ -131,6 +130,9 @@
             showWeChatPic (e) {
                 e.stopPropagation()
                 this.showWeChat = !this.showWeChat
+            },
+            closeWeChat () {
+                this.showWeChat = false
             },
             onresize(){
                 clearTimeout(this.timer);
