@@ -1,20 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-
-import index_v2 from '@/components/index_v2.vue'
-
 import privacy from '@/components/privacy'
 import terms from '@/components/terms'
-import newIndex from "@/components/newIndex"
-import newApp from "@/components/newApp"
-import appPrivacy from '@/components/appPrivacy'
-import appTerms from '@/components/appTerms'
-import TestNet from '../components/TestNet.vue';
-import TestNetApp from '../components/TestNetApp.vue';
-import HackathonApp from '../components/HackathonApp.vue';
-import MainNet from "../components/MainNet";
-import MainNetApp from "../components/MainNetApp";
 import NewManinet from '../components/NewMainnet';
 import NewTestnet from '../components/NewTestnet';
 import Home from "../components/Home"
@@ -34,14 +22,6 @@ export function createRouter() {
                 component: NewTestnet,
             },
             {
-                path: '/testnets/app',
-                component: TestNetApp,
-            },
-            {
-                path: '/hackathon/app',
-                component: HackathonApp,
-            },
-            {
                 path: '/privacy',
                 name: 'privacy',
                 component: privacy
@@ -52,28 +32,8 @@ export function createRouter() {
                 component: terms
             },
             {
-                path: '/app',
-                name: 'app',
-                component: newApp,
-            },
-            {
-                path: '/appPrivacy',
-                name: 'appPrivacy',
-                component: appPrivacy
-            },
-
-            {
-                path: '/appTerms',
-                name: 'appTerms',
-                component: appTerms
-            },
-            {
                 path: '/mainnet',
                 component: NewManinet
-            },
-            {
-                path: '/mainnet/app',
-                component: MainNetApp
             },
         ]
     })
